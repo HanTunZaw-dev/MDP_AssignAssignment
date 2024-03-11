@@ -38,6 +38,7 @@
         <TableRow>
 
             <ImageView
+                android:id="@+id/home"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/home_deco"
@@ -45,6 +46,7 @@
                 android:contentDescription="@string/home_and_kitchen" />
 
             <ImageView
+                android:id="@+id/beauty"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/beauty_care"
@@ -76,6 +78,7 @@
         <TableRow>
 
             <ImageView
+                android:id="@+id/pet"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/pets"
@@ -83,6 +86,7 @@
                 android:contentDescription="@string/pet_supplies" />
 
             <ImageView
+                android:id="@+id/toy"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/toys"

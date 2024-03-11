@@ -7,4 +7,6 @@
     <color name="darker_gray">#aaaaaa</color>
     <color name="sky_blue">#bfe5fc</color>
     <color name="my_light_primary">#E8B10F</color>
+    <color name="sign_color">#FFFFC107</color>
+    <color name="create_color">#F1F0EE</color>
 </resources>

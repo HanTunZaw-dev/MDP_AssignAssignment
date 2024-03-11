@@ -13,4 +13,15 @@
     <string name="create_new">Create a new Account</string>
     <string name="terms">Conditions of Use Privacy Notice</string>
     <string name="copy_right">\u00A9 1996-2017, Amazon.com, Inc. or its affiliates</string>
+    <string name="create_account">Create Account</string>
+    <string name="your_name">Your name</string>
+    <string name="mobile_number_or_email">Mobile Number or email</string>
+    <string name="re_password">Re-enter password</string>
+    <string name="btn_continue">Continue</string>
+    <string name="welcome">Welcome %s!</string>
+    <string name="toy_and_games">Toy and games</string>
+    <string name="pet_supplies">Pet supplies</string>
+    <string name="beauty_and_personal_care">Beauty and Personal care</string>
+    <string name="home_and_kitchen">Home And Kitchen</string>
+    <string name="shop_by_categories">Shop by Categories</string>
 </resources>

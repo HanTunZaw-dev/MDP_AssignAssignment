@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingCategoryActivity">
+
+    <TextView
+        android:id="@+id/idWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/welcome"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/idTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/idWelcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/shop_by_categories"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/idTitle"
+        android:layout_marginTop="8dp">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/home_deco"
+                android:layout_weight="1"
+                android:contentDescription="@string/home_and_kitchen" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/beauty_care"
+                android:layout_weight="1"
+                android:contentDescription="@string/beauty_and_personal_care" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/home_and_kitchen"
+                android:textSize="15sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/beauty_and_personal_care"
+                android:textSize="15sp"
+                android:gravity="center_horizontal"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pets"
+                android:layout_weight="1"
+                android:contentDescription="@string/pet_supplies" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/toys"
+                android:layout_weight="1"
+                android:contentDescription="@string/toy_and_games" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pet_supplies"
+                android:textSize="15sp"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/toy_and_games"
+                android:textSize="15sp"
+                android:gravity="center_horizontal"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

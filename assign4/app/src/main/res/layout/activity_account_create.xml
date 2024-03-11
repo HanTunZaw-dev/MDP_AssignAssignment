@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/border_background_custom"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        tools:context=".AccountCreateActivity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imgAmazon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/amazon_logo"
+            android:contentDescription="@string/amazonLogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/createLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/createName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_name"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/your_name"
+            android:textSize="17sp"
+            android:inputType="textPersonName"
+            tools:ignore="LabelFor,TextFields" />
+
+        <TextView
+            android:id="@+id/createEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_number_or_email"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/mobile_number_or_email"
+            android:textSize="17sp"
+            android:inputType="textEmailAddress"
+            tools:ignore="LabelFor,TextFields" />
+
+        <TextView
+            android:id="@+id/createPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:inputType="textPassword"
+            android:autofillHints="@string/password"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/createRePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/re_password"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/rePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:inputType="textPassword"
+            android:autofillHints="@string/re_password"
+            tools:ignore="LabelFor,TextFields"/>
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_continue"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/btn_background_sec"/>
+
+</LinearLayout>

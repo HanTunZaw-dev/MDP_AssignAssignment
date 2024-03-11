@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "com.example.assign4"
     compileSdk = 34
-
+    buildFeatures{
+        viewBinding=true
+    }
     defaultConfig {
         applicationId = "com.example.assign4"
         minSdk = 29

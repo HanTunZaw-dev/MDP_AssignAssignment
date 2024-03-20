@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "com.han.assign5"
     compileSdk = 34
-
+    buildFeatures{
+        viewBinding=true
+    }
     defaultConfig {
         applicationId = "com.han.assign5"
         minSdk = 29
